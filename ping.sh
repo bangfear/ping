@@ -15,7 +15,7 @@ else
     exit 1
 fi
 # PING SERVER
-SERVER=("8.8.8.8")
+SERVER=("104.18.225.52")
 messages=()
 failed=0
 for server in "${SERVER[@]}"
