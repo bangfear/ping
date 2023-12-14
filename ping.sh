@@ -25,7 +25,7 @@ do
         ping=$(echo "$result" | awk -F'/' 'END {printf "%.0f", $5}')
         messages+=("results PING 📈 $ping ms..")
     else
-        messages+=("Failed ❌")
+        messages+=("TFailed ❌")
         failed=$((failed_count + 1))
     fi
 done
